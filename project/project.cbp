@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="clan_index">
+				<Option output="../bin/clan_index" prefix_auto="1" extension_auto="1" />
+				<Option object_output="objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+				</Compiler>
+			</Target>
+			<Target title="clan_search">
+				<Option output="../bin/clan_search" prefix_auto="1" extension_auto="1" />
+				<Option object_output="objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+				</Compiler>
+			</Target>
+			<Target title="clan_output">
+				<Option output="../bin/clan_output" prefix_auto="1" extension_auto="1" />
+				<Option object_output="objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+				</Compiler>
+			</Target>
+			<Target title="clan_annotate">
+				<Option output="../bin/clan_annotate" prefix_auto="1" extension_auto="1" />
+				<Option object_output="objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+				</Compiler>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="all" targets="clan_index;clan_search;clan_output;clan_annotate;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../src/annotate_driver.h" />
+		<Unit filename="../src/bio_alphabet.cc" />
+		<Unit filename="../src/bio_alphabet.h" />
+		<Unit filename="../src/bwt.cc" />
+		<Unit filename="../src/bwt.h" />
+		<Unit filename="../src/bwt_frag_merger.cc" />
+		<Unit filename="../src/bwt_frag_merger.h" />
+		<Unit filename="../src/bwt_search.cc" />
+		<Unit filename="../src/bwt_search.h" />
+		<Unit filename="../src/concatenator.cc" />
+		<Unit filename="../src/concatenator.h" />
+		<Unit filename="../src/config.h" />
+		<Unit filename="../src/dimer_folding.cc" />
+		<Unit filename="../src/dimer_folding.h" />
+		<Unit filename="../src/divsufsort.cc" />
+		<Unit filename="../src/divsufsort.h" />
+		<Unit filename="../src/divsufsort64.h" />
+		<Unit filename="../src/divsufsort_private.h" />
+		<Unit filename="../src/divsufsort_private_64.h" />
+		<Unit filename="../src/free_energy.h" />
+		<Unit filename="../src/kmer_unitcoder.cc" />
+		<Unit filename="../src/kmer_unitcoder.h" />
+		<Unit filename="../src/lfs.h" />
+		<Unit filename="../src/loader.cc" />
+		<Unit filename="../src/loader.h" />
+		<Unit filename="../src/main_annotate.cc">
+			<Option target="clan_annotate" />
+		</Unit>
+		<Unit filename="../src/main_index.cc">
+			<Option target="clan_index" />
+		</Unit>
+		<Unit filename="../src/main_output.cc">
+			<Option target="clan_output" />
+		</Unit>
+		<Unit filename="../src/main_search.cc">
+			<Option target="clan_search" />
+		</Unit>
+		<Unit filename="../src/mapping_driver.cc" />
+		<Unit filename="../src/mapping_driver.h" />
+		<Unit filename="../src/minimizer_sort.cc" />
+		<Unit filename="../src/minimizer_sort.h" />
+		<Unit filename="../src/misc.h" />
+		<Unit filename="../src/output_printer.cc" />
+		<Unit filename="../src/output_printer.h" />
+		<Unit filename="../src/parameters.h" />
+		<Unit filename="../src/read_merge.cc" />
+		<Unit filename="../src/read_merge.h" />
+		<Unit filename="../src/score.h" />
+		<Unit filename="../src/seed_extension.h" />
+		<Unit filename="../src/sssort.cc" />
+		<Unit filename="../src/timer.h" />
+		<Unit filename="../src/trsort.cc" />
+		<Unit filename="../src/utils.cc" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

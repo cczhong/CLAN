@@ -1,0 +1,355 @@
+# depslib dependency file v1.0
+1517265506 source:/home/cczhong/Codes/CLAN_dev/src/bio_alphabet.cc
+	"bio_alphabet.h"
+
+1517265945 /home/cczhong/Codes/CLAN_dev/src/bio_alphabet.h
+	<iostream>
+	<map>
+	<cstdlib>
+	<cstring>
+	<tuple>
+	<time.h>
+	<vector>
+
+1517265499 source:/home/cczhong/Codes/CLAN_dev/src/bwt.cc
+	"bwt.h"
+
+1517265965 /home/cczhong/Codes/CLAN_dev/src/bwt.h
+	<iostream>
+	<fstream>
+	<string>
+	<list>
+	<queue>
+	<stack>
+	<cstring>
+	<cstdlib>
+	<cassert>
+	<tuple>
+	<unordered_map>
+	"divsufsort64.h"
+	"bio_alphabet.h"
+	"concatenator.h"
+
+1517265971 /home/cczhong/Codes/CLAN_dev/src/divsufsort64.h
+	<inttypes.h>
+
+1517265973 /home/cczhong/Codes/CLAN_dev/src/concatenator.h
+	<iostream>
+	<string>
+	<cstring>
+	<cassert>
+	<list>
+
+1517265488 source:/home/cczhong/Codes/CLAN_dev/src/bwt_frag_merger.cc
+	"bwt_frag_merger.h"
+
+1517265958 /home/cczhong/Codes/CLAN_dev/src/bwt_frag_merger.h
+	<iostream>
+	<string>
+	<algorithm>
+	<list>
+	<queue>
+	<stack>
+	<cstring>
+	<cstdlib>
+	<cassert>
+	<unordered_map>
+	"bwt.h"
+	"bwt_search.h"
+
+1517265968 /home/cczhong/Codes/CLAN_dev/src/bwt_search.h
+	<iostream>
+	<string>
+	<algorithm>
+	<list>
+	<queue>
+	<stack>
+	<cstring>
+	<cstdlib>
+	<cassert>
+	<unordered_map>
+	<sstream>
+	"bwt.h"
+	"seed_extension.h"
+
+1517265954 /home/cczhong/Codes/CLAN_dev/src/seed_extension.h
+	<iostream>
+	<string>
+	<algorithm>
+	<list>
+	<queue>
+	<stack>
+	<cstring>
+	<cstdlib>
+	<cassert>
+	<unordered_map>
+	<sstream>
+	"score.h"
+
+1517264503 /home/cczhong/Codes/CLAN_dev/src/score.h
+
+1517265956 source:/home/cczhong/Codes/CLAN_dev/src/bwt_search.cc
+	"bwt_search.h"
+
+1517265495 source:/home/cczhong/Codes/CLAN_dev/src/concatenator.cc
+	"concatenator.h"
+
+1517265937 source:/home/cczhong/Codes/CLAN_dev/src/dimer_folding.cc
+	"dimer_folding.h"
+
+1517265943 /home/cczhong/Codes/CLAN_dev/src/dimer_folding.h
+	<iostream>
+	<string>
+	<algorithm>
+	<list>
+	<queue>
+	<stack>
+	<cstring>
+	<cstdlib>
+	<cassert>
+	<unordered_map>
+	<ctype.h>
+	"free_energy.h"
+
+1517265486 /home/cczhong/Codes/CLAN_dev/src/free_energy.h
+	<unordered_map>
+	<string>
+
+1517265948 source:/home/cczhong/Codes/CLAN_dev/src/divsufsort.cc
+	"divsufsort_private.h"
+	<omp.h>
+
+1517264503 /home/cczhong/Codes/CLAN_dev/src/divsufsort_private.h
+	"config.h"
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<memory.h>
+	<stddef.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	"divsufsort64.h"
+
+1517264503 /home/cczhong/Codes/CLAN_dev/src/config.h
+
+1517265969 source:/home/cczhong/Codes/CLAN_dev/src/kmer_unitcoder.cc
+	"kmer_unitcoder.h"
+
+1517265966 /home/cczhong/Codes/CLAN_dev/src/kmer_unitcoder.h
+	<iostream>
+	<map>
+	<string>
+	<cmath>
+	<cstdlib>
+	<bitset>
+	"bio_alphabet.h"
+
+1517265942 source:/home/cczhong/Codes/CLAN_dev/src/loader.cc
+	"loader.h"
+
+1517265940 /home/cczhong/Codes/CLAN_dev/src/loader.h
+	<iostream>
+	<sstream>
+	<fstream>
+	<iostream>
+	<string>
+	<vector>
+	<cstring>
+	<cassert>
+	<list>
+	<unordered_map>
+	<ctype.h>
+	"bio_alphabet.h"
+
+1517265489 source:/home/cczhong/Codes/CLAN_dev/src/main_index.cc
+	<iostream>
+	<string>
+	<list>
+	<ctime>
+	<cstdlib>
+	<cstring>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	"bwt.h"
+	"bwt_search.h"
+	"loader.h"
+	"bio_alphabet.h"
+	"minimizer_sort.h"
+	"parameters.h"
+
+1517265961 /home/cczhong/Codes/CLAN_dev/src/minimizer_sort.h
+	<iostream>
+	<unordered_map>
+	<string>
+	<cstring>
+	<list>
+	"kmer_unitcoder.h"
+
+1517265494 /home/cczhong/Codes/CLAN_dev/src/parameters.h
+
+1517265497 source:/home/cczhong/Codes/CLAN_dev/src/mapping_driver.cc
+	"mapping_driver.h"
+
+1517265501 /home/cczhong/Codes/CLAN_dev/src/mapping_driver.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<list>
+	<ctime>
+	<algorithm>
+	<cstdlib>
+	<cstring>
+	<assert.h>
+	<unistd.h>
+	<iomanip>
+	"bwt.h"
+	"bwt_search.h"
+	"loader.h"
+	"bio_alphabet.h"
+	"minimizer_sort.h"
+	"bwt_frag_merger.h"
+	"score.h"
+	"parameters.h"
+
+1517265504 source:/home/cczhong/Codes/CLAN_dev/src/minimizer_sort.cc
+	"minimizer_sort.h"
+
+1517265975 source:/home/cczhong/Codes/CLAN_dev/src/output_printer.cc
+	"output_printer.h"
+
+1517265963 /home/cczhong/Codes/CLAN_dev/src/output_printer.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<list>
+	<ctime>
+	<algorithm>
+	<cstdlib>
+	<cstring>
+	<assert.h>
+	<unistd.h>
+	<iomanip>
+	"bwt.h"
+	"bwt_search.h"
+	"loader.h"
+	"bio_alphabet.h"
+	"minimizer_sort.h"
+	"bwt_frag_merger.h"
+	"score.h"
+	"dimer_folding.h"
+	"read_merge.h"
+
+1517265931 /home/cczhong/Codes/CLAN_dev/src/read_merge.h
+	<iostream>
+	<string>
+	<algorithm>
+	<list>
+	<queue>
+	<stack>
+	<cstring>
+	<cstdlib>
+	<cassert>
+	<tuple>
+	<unordered_map>
+	"bwt_frag_merger.h"
+	"parameters.h"
+
+1517265490 source:/home/cczhong/Codes/CLAN_dev/src/read_merge.cc
+	"read_merge.h"
+
+1517265509 source:/home/cczhong/Codes/CLAN_dev/src/sssort.cc
+	"divsufsort_private.h"
+
+1517265491 source:/home/cczhong/Codes/CLAN_dev/src/trsort.cc
+	"divsufsort_private.h"
+
+1517265492 source:/home/cczhong/Codes/CLAN_dev/src/utils.cc
+	"divsufsort_private.h"
+	<iostream>
+
+1517265493 source:/home/cczhong/Codes/CLAN_dev/src/main_search.cc
+	<iostream>
+	<fstream>
+	<string>
+	<list>
+	<ctime>
+	<algorithm>
+	<cstdlib>
+	<cstring>
+	<unistd.h>
+	<omp.h>
+	"bwt.h"
+	"bwt_search.h"
+	"loader.h"
+	"bio_alphabet.h"
+	"bwt_frag_merger.h"
+	"mapping_driver.h"
+	"output_printer.h"
+	"parameters.h"
+	"misc.h"
+
+1517265951 /home/cczhong/Codes/CLAN_dev/src/misc.h
+	<string>
+
+1517264503 source:/home/cczhong/Codes/CLAN_dev/src/main_output.cc
+	<iostream>
+	<fstream>
+	<string>
+	<list>
+	<ctime>
+	<algorithm>
+	<cstdlib>
+	<cstring>
+	<unistd.h>
+	<omp.h>
+	"bwt.h"
+	"bwt_search.h"
+	"loader.h"
+	"bio_alphabet.h"
+	"bwt_frag_merger.h"
+	"mapping_driver.h"
+	"output_printer.h"
+	"parameters.h"
+
+1517265487 source:/home/cczhong/Codes/CLAN_dev/src/main_annotate.cc
+	<iostream>
+	<string>
+	<list>
+	<ctime>
+	<cstdlib>
+	<cstring>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	"bwt.h"
+	"bwt_search.h"
+	"loader.h"
+	"bio_alphabet.h"
+	"minimizer_sort.h"
+	"parameters.h"
+	"annotate_driver.h"
+
+1517265959 /home/cczhong/Codes/CLAN_dev/src/annotate_driver.h
+	<iostream>
+	<string>
+	<algorithm>
+	<list>
+	<queue>
+	<stack>
+	<cstring>
+	<cstdlib>
+	<cassert>
+	<unordered_map>
+	"parameters.h"
+	"read_merge.h"
+	"free_energy.h"
+	"output_printer.h"
+	"misc.h"
+
